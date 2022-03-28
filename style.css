@@ -77,11 +77,14 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 50px;
 }
 
 .blink {
   -webkit-animation: blink 0.8s steps(1, start) infinite alternate;
           animation: blink 0.8s steps(1, start) infinite alternate;
 }
-
+p{
+  font-size:x-large;
+}
 
