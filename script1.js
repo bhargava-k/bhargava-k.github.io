@@ -12,3 +12,5 @@ var date = new Date( Date.now() - 1000 * 60 * 60 * 4 ).toUTCString(),
 
 
 query('time').innerHTML = weekday + ' ' + month + ' ' + day + ' ' + time;
+
+

@@ -109,27 +109,33 @@ footer .bottomMenu__item:hover svg, footer .bottomMenu__item:focus svg {
   animation-duration: 999s;
   }
 
-#home{
-  width:100%;
-  height: 1080px;
-}
-#aboutme{
-  width:100%;
-  height: 1080px;
-}
+
 
 txt{
   position: absolute;
   left: 10%;
   top: 10%;
+
 }
 txt1{
   position: absolute;
   left: 10%;
-  top: 1085px;
+  top: 500px;
+  width: 800px;
+ padding-bottom: 60px;
   
 }
-
+txt2{
+  position: absolute;
+  left: 10%;
+  top: 1100px;
+  height: 500px;
+  width: 900px;
+  
+}
+li{
+  padding: 2%;
+}
 
 p{
   display: block;
@@ -156,6 +162,7 @@ p2{
 h3,time{
   padding: 0%;
   font-size: 30px;
+  width: 900px;
   font-family: "Share Tech Mono", monospace;
   color: rgb(255, 255, 255);
 }
@@ -289,4 +296,14 @@ bl{
   color: aqua;
 }
 
+.w3-animate-opacity{
+  animation:opac 12s;
+
+}
+@keyframes opac{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+  
 
